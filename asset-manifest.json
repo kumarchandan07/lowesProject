@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/lowesProject/static/css/main.ea11155f.css",
+    "main.js": "/lowesProject/static/js/main.56f31bc5.js",
+    "static/media/slick.svg": "/lowesProject/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/lowesProject/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/lowesProject/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/lowesProject/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/lowesProject/index.html",
+    "main.ea11155f.css.map": "/lowesProject/static/css/main.ea11155f.css.map",
+    "main.56f31bc5.js.map": "/lowesProject/static/js/main.56f31bc5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea11155f.css",
+    "static/js/main.56f31bc5.js"
+  ]
+}
