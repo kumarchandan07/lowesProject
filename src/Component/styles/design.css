@@ -1,0 +1,102 @@
+.main-Container{
+    width: 78rem;
+    height: 28rem;
+    position: relative;
+    background-color: #F4F4F4;
+    display: flex;
+    left: 3rem;
+    top: 7rem;
+    overflow: hidden;
+}
+.detailSection{
+    width: 60%;
+    height: 100%;
+    float: left;
+    clear: both;
+    padding-right: 110px;
+    padding-left: 17px;
+}
+.imageSection{
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+.headerSection{
+    height: 1rem;
+}
+.logoSection{
+    width: 10%;
+    height: 4rem;
+    float: left;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    margin-left: 15px;
+    margin-top: 27px;
+
+}
+.logoValue{
+    color: white;
+    float: left;
+    margin-left: 20px;
+    margin-top: 14px;
+}
+.titleSection{
+    width: 86%;
+    float: right;
+    margin-top: 22px;
+}
+.titleSection .title{
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+
+}
+ol{
+    display: inline-block;
+    counter-reset: item;
+}
+li{
+    margin-bottom: 10px;
+}
+li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item;
+}
+.numbers{
+    width: 40px;
+    height: 40px;
+    float: left;
+    font-size: 20px;
+}
+.text-content{
+   
+}
+.slick-arrow.slick-prev,
+.slick-arrow.slick-prev:hover
+{
+    background: #0471AF;
+}
+
+.slick-arrow.slick-next,
+.slick-arrow.slick-next:hover
+{
+    background: #0471AF; 
+    margin-right: 3.1rem;
+}
+.slick-slider.slides.slick-initialized{
+    margin-top: 2rem;
+}
+.slick-dots li{
+    display: none;
+}
+.btn.btn-primary{
+    margin-left: 14px;
+    margin-top: 16rem;
+    color: white;
+    background: #004990;
+    border: 1px solid #004990;
+
+}
